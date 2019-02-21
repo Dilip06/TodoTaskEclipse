@@ -13,6 +13,7 @@ public class SuccessMessage {
 
     private int errorCount;
     private String message;
+    private Object responseObject;
 
     public int getErrorCount() {
         return errorCount;
@@ -29,4 +30,12 @@ public class SuccessMessage {
     public void setMessage(String message) {
         this.message = message;
     }
+
+	public Object getResponseObject() {
+		return responseObject;
+	}
+
+	public void setResponseObject(Object responseObject) {
+		this.responseObject = responseObject;
+	}
 }
